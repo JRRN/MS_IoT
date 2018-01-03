@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="LCD.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LCD"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="txtWriteLCD" PlaceholderText="Enter text" Margin="10,50,10,10" TextAlignment="Center" FontSize="26.667" />
+            <Button x:Name="WriteLCD" Content="Write LCD" Margin="10,0,10,10" FontSize="26.667" Click="WriteLCD_Click" />
+        </StackPanel>
+    </Grid>
+</Page>
